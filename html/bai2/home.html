@@ -1,0 +1,74 @@
+<html>
+ <head>
+  <title>
+   Fast Food Restaurant
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet"/>
+  <style>
+    body {
+     font-family: 'Roboto', sans-serif;
+     background-image: url('/img/bai2/hero-bg.jpg');
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed; /* Giữ hình ảnh cố định khi cuộn */
+     color: white; /* Giữ chữ màu trắng để nổi bật trên nền */
+   }
+   .logo {
+     font-family: 'Dancing Script', cursive;
+     margin-left:120px;
+   }
+   .text-left{
+    width:700px;
+    margin-left:200px;
+   }
+  </style>
+ </head>
+ <body class="bg-black text-white">
+  <header class="flex justify-between items-center p-6">
+   <div class="logo text-3xl text-white">
+    Feane
+   </div>
+   <nav>
+    <ul class="flex space-x-8">
+      <li><a class="text-white hover:text-yellow-500" href="/html/bai2/home.html">HOME</a></li>
+      <li><a class="text-white hover:text-yellow-500" href="/html/bai2/menu.html">MENU</a></li>
+      <li><a class="text-white hover:text-yellow-500" href="/html/bai2/about.html">ABOUT</a></li>
+      <li><a class="text-white hover:text-yellow-500" href="/html/bai2/book.html">BOOK TABLE</a></li>
+    </ul>
+   </nav>
+   <div class="space-x-4">
+    <a class="text-white" href="#">
+     <i class="fas fa-shopping-cart"></i>
+    </a>
+    <a class="text-white" href="#">
+     <i class="fas fa-search"></i>
+    </a>
+    <a class="bg-yellow-500 text-black px-4 py-2 rounded-full" href="/Order.html">
+     Order Online
+    </a>
+   </div>
+  </header>
+  <main class="flex items-center justify-left h-screen">
+   <div class="text-left">
+    <h1 class="text-5xl font-bold mb-4" style="font-family: 'Dancing Script', cursive;">
+     Fast Food Restaurant
+    </h1>
+    <p class="text-lg mb-6">
+     Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+    </p>
+    <a class="bg-yellow-500 text-black px-6 py-3 rounded-full" href="#">
+     Order Now
+    </a>
+   </div>
+  </main>
+  <footer class="flex justify-center mt-6">
+   <div class="flex space-x-2">
+    <span class="w-3 h-3 bg-white rounded-full"></span>
+    <span class="w-3 h-3 bg-yellow-500 rounded-full"></span>
+   </div>
+  </footer>
+ </body>
+</html>

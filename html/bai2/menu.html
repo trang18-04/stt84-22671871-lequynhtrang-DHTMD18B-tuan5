@@ -1,0 +1,196 @@
+<html>
+ <head>
+  <title>
+   Fast Food Restaurant
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet"/>
+  <style>
+    body {
+     font-family: 'Roboto', sans-serif;
+     background-color: #ffffff;
+   }
+   header {
+      background-color: #000000; 
+      color: #fff;
+  }
+  h2{
+    font-family: 'Dancing Script', cursive;
+  }
+   .logo {
+     font-family: 'Dancing Script', cursive;
+     margin-left:120px;
+   }
+   .text-left{
+    width:700px;
+    margin-left:200px;
+   }
+   .menu-button {
+      background-color: #fbbd08;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+  }
+  .menu-button:hover {
+      background-color: #e0a800;
+  }
+  .menu-category button {
+      background-color: #000;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 20px;
+      margin: 0 5px;
+  }
+  .menu-category button:hover {
+      background-color: #333;
+  }
+  .menu-item {
+       width:80%;
+      background-color: #c1bcbc;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-left:35px;
+      margin-top:30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .menu-item img {
+      width: 80%;
+      height: auto;
+      padding:40px;
+      margin-left:40px;
+  }
+  .menu-item-content {
+      background-color: #100823;
+      color: #fff;
+      padding: 15px;
+      position: relative;
+  }
+  .menu-item-content h3 {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+  }
+  .menu-item-content p {
+      font-size: 0.875rem;
+      margin-bottom: 15px;
+  }
+  .menu-item-content .price {
+      font-size: 1rem;
+      font-weight: bold;
+  }
+  .menu-item-content .cart-button {
+      background-color: #fbbd08;
+      color: #fff;
+      padding: 10px;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+  }
+  .menu-item-content .cart-button:hover {
+      background-color: #e0a800;
+  }
+  </style>
+ </head>
+ <body>
+  <header class="flex justify-between items-center p-6">
+   <div class="logo text-3xl text-white">
+    Feane
+   </div>
+   <nav>
+    <ul class="flex space-x-8">
+        <li><a class="text-white hover:text-yellow-500" href="/html/bai2/home.html">HOME</a></li>
+      <li><a class="text-white hover:text-yellow-500" href="/html/bai2/menu.html">MENU</a></li>
+      <li><a class="text-white hover:text-yellow-500" href="/html/bai2/about.html">ABOUT</a></li>
+      <li><a class="text-white hover:text-yellow-500" href="/html/bai2/book.html">BOOK TABLE</a></li>
+    </ul>
+   </nav>
+   <div class="space-x-4">
+    <a class="text-white" href="#">
+     <i class="fas fa-shopping-cart"></i>
+    </a>
+    <a class="text-white" href="#">
+     <i class="fas fa-search"></i>
+    </a>
+    <a class="bg-yellow-500 text-black px-4 py-2 rounded-full" href="/Order.html">
+     Order Online
+    </a>
+   </div>
+  </header>
+  <main class="p-8">
+    <h2 class="text-center text-4xl  mb-8">
+     Our Menu
+    </h2>
+    <div class="menu-category flex justify-center mb-8">
+     <button> All </button>
+     <button> Burger</button>
+     <button> Pizza </button>
+     <button> Pasta </button>
+     <button> Fries </button>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="menu-item">
+      <img alt="Delicious Pizza" height="200" src="/img/bai2/f1.png" width="300"/>
+      <div class="menu-item-content">
+       <h3>
+        Delicious Pizza
+       </h3>
+       <p>
+        Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+       </p>
+       <div class="flex justify-between items-center">
+        <span class="price">
+         $20
+        </span>
+        <button class="cart-button">
+         <i class="fas fa-shopping-cart">
+         </i>
+        </button>
+       </div>
+      </div>
+     </div>
+     <div class="menu-item">
+      <img alt="Delicious Burger" height="200" src="/img/bai2/f2.png" width="300"/>
+      <div class="menu-item-content">
+       <h3>
+        Delicious Burger
+       </h3>
+       <p>
+        Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+       </p>
+       <div class="flex justify-between items-center">
+        <span class="price">
+         $15
+        </span>
+        <button class="cart-button">
+         <i class="fas fa-shopping-cart">
+         </i>
+        </button>
+       </div>
+      </div>
+     </div>
+     <div class="menu-item">
+      <img alt="Delicious Pizza" height="200" src="/img/bai2/f3.png" width="300"/>
+      <div class="menu-item-content">
+       <h3>
+        Delicious Pizza
+       </h3>
+       <p>
+        Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+       </p>
+       <div class="flex justify-between items-center">
+        <span class="price">
+         $17
+        </span>
+        <button class="cart-button">
+         <i class="fas fa-shopping-cart">
+         </i>
+        </button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </main>
+ </body>
+</html>

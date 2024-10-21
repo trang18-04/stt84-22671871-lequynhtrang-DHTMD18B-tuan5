@@ -1,0 +1,86 @@
+<html>
+ <head>
+  <title>
+   Fast Food Restaurant
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet"/>
+  <style>
+    body {
+     font-family: 'Roboto', sans-serif;
+     background-color: #ffffff;
+   }
+   header {
+      background-color: #000000; 
+      color: #fff;
+  }
+  h1{
+    font-family: 'Dancing Script', cursive;
+  }
+   .logo {
+     font-family: 'Dancing Script', cursive;
+     margin-left:120px;
+   }
+
+</style>
+</head>
+<body>
+  <header class="flex justify-between items-center p-6">
+  <div class="logo text-3xl text-white">
+   Feane
+  </div>
+  <nav>
+   <ul class="flex space-x-8">
+    <li><a class="text-white hover:text-yellow-500" href="/html/bai2/home.html">HOME</a></li>
+    <li><a class="text-white hover:text-yellow-500" href="/html/bai2/menu.html">MENU</a></li>
+    <li><a class="text-white hover:text-yellow-500" href="/html/bai2/about.html">ABOUT</a></li>
+    <li><a class="text-white hover:text-yellow-500" href="/html/bai2/book.html">BOOK TABLE</a></li>
+  </ul>
+  </nav>
+  <div class="space-x-4">
+   <a class="text-white" href="#">
+    <i class="fas fa-shopping-cart"></i>
+   </a>
+   <a class="text-white" href="#">
+    <i class="fas fa-search"></i>
+   </a>
+   <a class="bg-yellow-500 text-black px-4 py-2 rounded-full" href="/Order.html">
+    Order Online
+   </a>
+  </div>
+ </header>
+ <main class="container mx-auto py-12 px-6">
+  <h1 class="text-4xl mb-8">Book A Table</h1>
+  <div class="flex space-x-8">
+      <form class="w-1/2 space-y-4">
+          <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded">
+          <input type="text" placeholder="Phone Number" class="w-full p-3 border border-gray-300 rounded">
+          <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded">
+          <select class="w-full p-3 border border-gray-300 rounded">
+              <option>How many persons?</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+          </select>
+          <input type="text" placeholder="dd/mm/yyyy" class="w-full p-3 border border-gray-300 rounded">
+          <button type="submit" class="bg-yellow-500 text-black px-6 py-3 rounded-full">BOOK NOW</button>
+
+      </form>
+
+
+
+
+
+
+      <div class="w-1/2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.870217708073!2d-74.0060156845936!3d40.71277597933056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316b8b9b1b%3A0x4b8b9b1b0b8b9b1b!2sNew%20York%20City%20Hall!5e0!3m2!1sen!2sus!4v1633021234567!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+  </div>
+</main>
+</body>
+</html>
